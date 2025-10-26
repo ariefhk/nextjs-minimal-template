@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+/** biome-ignore-all lint/suspicious/noExplicitAny: biome ignore */
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export function useDebounce<T>(value: T, delay: number): T {
